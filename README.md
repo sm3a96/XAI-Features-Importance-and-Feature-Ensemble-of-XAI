@@ -1,9 +1,9 @@
 Ensemble Feature Selection Framework for Network Intrusion Detection Systems
 This repository provides the implementation of our ensemble-based feature selection framework, leveraging Explainable AI (XAI) methods to enhance the performance of network intrusion detection systems (IDS). 
 The framework combines state-of-the-art XAI methods to rank feature importance and employs a frequency-based aggregation mechanism to identify critical features. 
-Our results demonstrate significant improvements in model accuracy, precision, and computational efficiency.
 
-🌟 Highlights
+
+Highlights
 Explainable AI Integration: Combines SHAP, LOCO, PFI, and DALEX for feature importance rankings.
 Frequency-Based Aggregation: Identifies and prioritizes features consistently ranked high across methods.
 Extensive Evaluation: Tested on the CICIDS-2017 dataset using multiple classifiers, including Random Forest, Logistic Regression, KNN, and AdaBoost.
@@ -15,7 +15,7 @@ Open Source Contribution: Source code available for the research community to ad
 
 To Download the CICIDS-2017: dataset https://www.kaggle.com/datasets/usmanshuaibumusa/cicids-17.
 
-📊 Results
+Our Results
 The frequency-based ensemble framework significantly enhances model performance while reducing computational costs. Below are key performance metrics:
 
 Classifier	Accuracy	Precision	F1 Score	Computational Efficiency
@@ -29,12 +29,12 @@ Ensemble Feature Selection for Network Intrusion Detection Systems Using Explain
 Ismail Bibers & Mustafa Abdallah
 
 
-🤝 Contributing
-We welcome contributions from the community! Please follow our contributing guidelines and help improve this framework.
+Contributing
+We welcome contributions from the community!
 
 
 
-📬 Contact
+Contact
 For questions, comments, or collaborations, reach out to:
 
 Ismail Bibers: ibibers@purdue.edu
